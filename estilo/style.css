@@ -23,7 +23,7 @@ html, body {
 
 header {
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -36,6 +36,7 @@ header>h1 {
 
 header>p {
     padding-bottom: 50px;
+    font-size: 2vw;
 }
 
 a {
@@ -56,6 +57,10 @@ section {
     font-size: 3vw;
 }
 
+section>p {
+    padding-bottom: 2em;
+}
+
 section.basic {
     background-color: white;
     color: black;
@@ -63,18 +68,35 @@ section.basic {
 
 section.image {
     background-color: green;
+    box-shadow: inset 10px 10px 10px 0px rgba(0, 0, 0, 0.178);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.image>p {
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.692);
     color: white;
     padding: 20px;
     display: inline-block;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.527);
+    
+}
+
+section#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right center;
+    
+}
+
+section#img2{
+    background-image: url('../imagens/background002.jpg');
+    
 }
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 30px 10px 30px 10px;
+    font-size: 2vw;
 }
